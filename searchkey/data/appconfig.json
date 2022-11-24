@@ -1,0 +1,1664 @@
+
+{
+  "reason": "Success",
+  "config": {
+    "os_type": "android",
+    "data": [
+      {
+        "value": "0",
+        "key": "live_tab_default"
+      },
+      {
+        "value": "1",
+        "key": "change_skin",
+        "desc": ""
+      },
+      {
+        "value": "#df1f2a",
+        "key": "skin_color"
+      },
+      {
+        "key": "mobile_url",
+        "value": "http://cgi.v.cc.163.com/video_play_url_mobile/",
+        "desc": "默认的播放地址"
+      },
+      {
+        "key": "online_log_rate",
+        "value": "100",
+        "desc": "错误汇报率"
+      },
+      {
+        "value": "60",
+        "key": "cdn_update_interval",
+        "desc": "cdn信息刷新定时器的刷新时间间隔，以秒为单位"
+      },
+      {
+        "value": "http://[IP]/rtmp/nepush/[STREAM_NAME]?[PARAM]",
+        "key": "ne_template",
+        "desc": "自建的cdn的视频地址模板"
+      },
+      {
+        "key": "dn_template",
+        "value": "http://[IP]/dnpullhdl.v.cc.163.com/pushstation/[STREAM_NAME]?[PARAM]",
+        "desc": "帝联的cdn视频地址模板"
+      },
+      {
+        "value": "http://[IP]/pull.v.cc.163.com/pushstation/[STREAM_NAME].flv?[PARAM]",
+        "key": "ws_template",
+        "desc": "网宿的cdn视频地址模板"
+      },
+      {
+        "value": "5",
+        "key": "log_level",
+        "desc": "verbose = 2; debug = 3;info = 4 ;warm = 5; error = 6; assert = 7;none = 8"
+      },
+      {
+        "key": "enable_turnback",
+        "value": "0",
+        "desc": ""
+      },
+      {
+        "key": "gift_petty_price",
+        "value": "1000",
+        "desc": "礼物价格"
+      },
+      {
+        "key": "gift_combo_count",
+        "value": "5",
+        "desc": "一秒内条数"
+      },
+      {
+        "value": "500",
+        "key": "gift_size_limit",
+        "desc": "缓存多少条送礼"
+      },
+      {
+        "key": "year_activity_free_ticket",
+        "value": "1",
+        "desc": "年度活动"
+      },
+      {
+        "key": "vapi_mobile_url",
+        "value": "http://vapi.cc.163.com/video_play_url_mobile/",
+        "desc": ""
+      },
+      {
+        "value": "1",
+        "key": "ent_chat_bg_url",
+        "desc": "娱乐房间公屏背景的默认壁纸图片url"
+      },
+      {
+        "value": "15",
+        "key": "ent_privilege_guide_time_delay",
+        "desc": "娱乐房间贵族公屏提醒显示时间"
+      },
+      {
+        "value": "开通贵族，尽享荣耀！专属坐骑、贵宾座席、发言气泡、众多豪华特权！立即开通",
+        "key": "ent_privilege_guide_text",
+        "desc": "娱乐房间贵族公屏提醒显示文案"
+      },
+      {
+        "value": "ultra",
+        "key": "default_vbrname_sel",
+        "desc": "未切换码率时，默认推荐码率，value: blueray【蓝光】、ultra【超清】、high【高清】、standard【标清】"
+      },
+      {
+        "value": "1",
+        "key": "hard_decode_default",
+        "desc": "是否打开硬解码"
+      },
+      {
+        "value": "1",
+        "key": "enable_ent_lucky_pool",
+        "desc": "是否启用娱乐房间底部栏“幸运大奖池”入口"
+      },
+      {
+        "value": "0",
+        "key": "enable_cc_gmall",
+        "desc": "周边商城新的开关0为关闭,1为开启"
+      },
+      {
+        "value": "1",
+        "key": "ipad_qrlogin_open",
+        "desc": "扫码开关 0 关闭 1开启"
+      },
+      {
+        "key": "performance_sampling_duration",
+        "value": "300",
+        "desc": "客户端性能汇报间隔"
+      },
+      {
+        "key": "custom_emotion_send_max_limit",
+        "value": "1",
+        "desc": "自定义表情1分钟的发送次数"
+      },
+      {
+        "value": "1",
+        "key": "special_effect_wealth",
+        "desc": "财富等级特效"
+      },
+      {
+        "key": "special_effect_lucky_gift",
+        "value": "1",
+        "desc": "幸运礼物特效"
+      },
+      {
+        "value": "1",
+        "key": "special_effect_role",
+        "desc": "马甲特效"
+      },
+      {
+        "key": "enable_mlive_rank_total",
+        "value": "0",
+        "desc": "手机直播总榜"
+      },
+      {
+        "value": "0",
+        "key": "enable_mlive_rank_day",
+        "desc": "手机直播日榜"
+      },
+      {
+        "key": "wechat_share_b_test_ratio",
+        "value": "50",
+        "desc": "微信分享大招测试比例"
+      },
+      {
+        "value": "2.3.7",
+        "key": "lowest_version_circle",
+        "desc": "开放圈子入口"
+      },
+      {
+        "value": "1",
+        "key": "hide_open_mlive",
+        "desc": "手机直播开播入口：屏蔽=1，打开=0"
+      },
+      {
+        "key": "gameroom_same_msg_limited",
+        "value": "60",
+        "desc": "游戏房间同样消息发送限制"
+      },
+      {
+        "value": "1",
+        "key": "enable_ent_wish_gift",
+        "desc": "心愿礼物"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/ent_luckprizepool/",
+        "key": "ent_lucky_pool_url",
+        "desc": "幸运礼物大奖池url"
+      },
+      {
+        "value": "https://cc.163.com/act/pc/daily/wish_gift/",
+        "key": "ent_wish_gift_url",
+        "desc": "心愿礼物url"
+      },
+      {
+        "key": "shield_all_danmu",
+        "value": "0",
+        "desc": "新闻SDK弹幕开关"
+      },
+      {
+        "value": "0",
+        "key": "enable_report_get_video_info",
+        "desc": "是否开启举报截图功能"
+      },
+      {
+        "value": "1",
+        "key": "enable_report_get_video_info_new",
+        "desc": "1-打开举报截图新版"
+      },
+      {
+        "key": "anchor_recruit_url",
+        "value": "https://cc.163.com/act/m/daily/recruit_page/",
+        "desc": "主播招募跳转"
+      },
+      {
+        "key": "mlive_tab_homepage_url",
+        "value": " ",
+        "desc": "发现tab嵌入页面"
+      },
+      {
+        "key": "enable_zhima_auth",
+        "value": "1",
+        "desc": "开启芝麻认证"
+      },
+      {
+        "value": "1",
+        "key": "enable_main_ent_rank_tab",
+        "desc": "手机排行榜tab显示"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/news/detail.html?id=59afe716474d2022f633aa25",
+        "key": "game_live_helper_url",
+        "desc": "手游直播助手页面"
+      },
+      {
+        "key": "game_match_position",
+        "value": "2",
+        "desc": "赛事模块位置"
+      },
+      {
+        "key": "free_flow_telecom_on",
+        "value": "1",
+        "desc": "电信白金卡免流提示开关"
+      },
+      {
+        "value": "您正在使用网易白金卡免流量服务",
+        "key": "free_flow_telecom_tip",
+        "desc": "电信白金卡提示文案"
+      },
+      {
+        "key": "fws_template",
+        "value": "http://pullfree.v.cc.163.com/pushstation/[STREAM_NAME].flv?[PARAM]",
+        "desc": "免流ws cdn视频地址模板"
+      },
+      {
+        "key": "enable_speech_recognize",
+        "value": "1",
+        "desc": "控制是否显示语音识别入口"
+      },
+      {
+        "key": "speech_recognize_vad_bos",
+        "value": "10",
+        "desc": "语音识别：开启识别后，用户多长时间不说话当做超时处理，单位秒"
+      },
+      {
+        "value": "10",
+        "key": "speech_recognize_vad_eos",
+        "desc": "语音识别：用户停止说话多长时间即认为不再输入，停止录音，单位秒"
+      },
+      {
+        "value": "0",
+        "key": "enable_zhuanshen",
+        "desc": "启用“我的”->“谁转身”玩法（钻石版）"
+      },
+      {
+        "key": "fans_analysis_entrance_url",
+        "value": "-1",
+        "desc": "粉丝分析配置"
+      },
+      {
+        "value": "0",
+        "key": "enable_core_log",
+        "desc": "打开AudioCore日志开关"
+      },
+      {
+        "value": "0",
+        "key": "force_audio_normal",
+        "desc": "不强制使用normal模式"
+      },
+      {
+        "value": "1",
+        "key": "doll_list_remain_sum_shown",
+        "desc": "娃娃机列表余额模块显示与否"
+      },
+      {
+        "key": "ent_tong_play_url",
+        "value": "https://cc.163.com/act/m/2017/ent_gang/index.html",
+        "desc": "帮会玩法"
+      },
+      {
+        "key": "enable_ent_gift_silver_coin",
+        "value": "1",
+        "desc": "娱乐模板钱包弹框是否显示银锭（1显示银锭，0显示金钻）"
+      },
+      {
+        "key": "enable_svga_large_effect",
+        "value": "0",
+        "desc": "是否开启svga大特效（开启的话同时关闭cocos2dx大特效）"
+      },
+      {
+        "key": "live_anchor_entrance_url",
+        "value": "https://cc.163.com/act/m/2018/live_record/index.html",
+        "desc": "我的直播入口配置"
+      },
+      {
+        "key": "cc_record_video_adapte",
+        "value": "1",
+        "desc": "录屏按屏幕分辨率开播开关"
+      },
+      {
+        "key": "enable_exposure_report",
+        "value": "1",
+        "desc": "日志曝光（1是开启曝光，0是不开启）"
+      },
+      {
+        "value": "1",
+        "key": "enable_mlive_face_detector",
+        "desc": "开播人脸检测"
+      },
+      {
+        "key": "enable_mlive_video_denoise",
+        "value": "1",
+        "desc": "开播降噪"
+      },
+      {
+        "value": "1",
+        "key": "enable_mlive_enterprise_beauty",
+        "desc": "开播集合美颜"
+      },
+      {
+        "key": "enable_svga_large_effect_new",
+        "value": "1",
+        "desc": "2.6.8 版本开始使用的 SVGA 大特效开关，1打开svga，0关闭svga"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/guard_page/index.html",
+        "key": "open_protector_url",
+        "desc": "守护开通页面地址"
+      },
+      {
+        "key": "hotfix",
+        "value": "1",
+        "desc": "安卓热更新"
+      },
+      {
+        "key": "is_need_db_migration",
+        "value": "1",
+        "desc": "迁移开关"
+      },
+      {
+        "value": "1",
+        "key": "player_log_file",
+        "desc": "本地播放器日志"
+      },
+      {
+        "key": "hand_detect_star",
+        "value": "1",
+        "desc": "比心手势识别开关(0是关，1是开)"
+      },
+      {
+        "value": "http://cc.163.com/act/m/2017/bai_xiao_sheng_m/pages/?tab=4&secondTab=2",
+        "key": "gift_baixiaosheng_activity_url",
+        "desc": "百晓生进阶人气票页面url"
+      },
+      {
+        "key": "enable_launch_select_game_category",
+        "value": "0",
+        "desc": "用户兴趣品类选择，1则升级就会出现，0则重新安装出现"
+      },
+      {
+        "value": "0",
+        "key": "eventbus_time_out_switch",
+        "desc": "EventBus onEvent超时的开关(0为关闭，1为打开)"
+      },
+      {
+        "key": "eventbus_time_out_duration",
+        "value": "400",
+        "desc": "EventBus onEvent执行超时时间（单位毫秒）"
+      },
+      {
+        "key": "ent_mlive_mini_game_entrance_enable",
+        "value": "1",
+        "desc": "娱乐房间小游戏入口"
+      },
+      {
+        "value": "1",
+        "key": "hide_game_mlive_orientation_button",
+        "desc": "0-开启游戏竖屏开播，1--强制游戏横屏+隐藏竖屏切换按钮"
+      },
+      {
+        "value": "1",
+        "key": "enable_video_cdn_udp",
+        "desc": "udp快播功能开关，1：开；0：关"
+      },
+      {
+        "key": "phone_free_login",
+        "value": "1",
+        "desc": "一键登录（电信、移动开启，联通关闭）"
+      },
+      {
+        "key": "app_background_timeout",
+        "value": "60",
+        "desc": "进入后台后，清理进程的超时时长（单位为分钟）"
+      },
+      {
+        "value": "1",
+        "key": "player_stat_branch",
+        "desc": ""
+      },
+      {
+        "key": "enable_ar_stamp",
+        "value": "1",
+        "desc": "开启盖章vr,1：开启；0，关闭"
+      },
+      {
+        "value": "100",
+        "key": "tcp_call_js_timeout",
+        "desc": "执行  js 方法超时统计阈值（单位毫秒）"
+      },
+      {
+        "value": "none",
+        "key": "new_live_version_black",
+        "desc": "新开播分支版本黑名单(none-全网关)"
+      },
+      {
+        "value": "all",
+        "key": "new_live_ccid_white",
+        "desc": "新开播分支ccid白名单(all-全网开)"
+      },
+      {
+        "value": "243076620",
+        "key": "new_live_ccid_black",
+        "desc": "新开播分支ccid黑名单(none-全网关)"
+      },
+      {
+        "key": "new_live_version_white",
+        "value": "all",
+        "desc": "新开播分支版本白名单(all-全网开)"
+      },
+      {
+        "value": "0",
+        "key": "is_gameroom_show_heat",
+        "desc": "游戏tab和游戏房间是否显示热度，1表示为显示热度，0则显示原来的人气"
+      },
+      {
+        "value": "1,2,3,4,5,6,7,8,9,0",
+        "key": "new_log_totnal_range",
+        "desc": "uid尾数，匿名用户当做0；0,1,2,3,4,5,6,7,8,9则为所有用户"
+      },
+      {
+        "value": "1",
+        "key": "is_open_new_log",
+        "desc": "是否启用新版日志"
+      },
+      {
+        "value": "4",
+        "key": "new_log_to_file_level",
+        "desc": "新的日志级别 4-INFO"
+      },
+      {
+        "key": "mlive_tool_download_url",
+        "value": "https://cc.163.com/act/m/2018/download_guide/index",
+        "desc": "CC手游开播入口"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/my-live/index.html?hiddenNavigationBar=1",
+        "key": "live_anchor_entrance_url_v2",
+        "desc": "新版我的直播地址"
+      },
+      {
+        "value": "0",
+        "key": "eventbus_time_out_switch_v2",
+        "desc": ""
+      },
+      {
+        "key": "db_high_frequency_checker_uid_key",
+        "value": "0",
+        "desc": "数据库高频接口灰度统计的用户uid的尾数，匿名用户用0， 多个是用逗号分隔"
+      },
+      {
+        "value": "1",
+        "key": "enable_mlive_starshow_orientation",
+        "desc": "星秀竖屏控制开关"
+      },
+      {
+        "key": "enable_mlive_ent",
+        "value": "0",
+        "desc": "手机端开播是否可以选择娱乐分类"
+      },
+      {
+        "value": "1",
+        "key": "enable_heartbeat_stat",
+        "desc": "播放器心跳日志统计开关 1:开启，0 关闭"
+      },
+      {
+        "key": "is_gameroom_show_heat_v2",
+        "value": "1",
+        "desc": "是否开启热度（0表示关闭，1表示开启）"
+      },
+      {
+        "value": "1",
+        "key": "eventbus_time_out_switch_v3",
+        "desc": "是否打开EventBus onEvent执行超时检测开关(1为开启，0为关闭)"
+      },
+      {
+        "key": "enable_ar_gift",
+        "value": "1",
+        "desc": "开启AR礼物"
+      },
+      {
+        "key": "union_pay_activity_config",
+        "value": "ew0KImJhbm5lcl9jb25maWdzIjogWw0Kew0KInN0YXJ0X2RhdGUiOiAiMjAxOS0wMS0xMSAwMDowMDowMCIsDQoiYmFubmVyX3VybCI6DQoiaHR0cDovL2NjLmZwLnBzLm5ldGVhc2UuY29tL2ZpbGUvNWMyNzBmMTkxNDNjZmE3YzhmNWY3NjFkcTBPa3k1d2kiLA0KImFjdGl2aXR5X3BhZ2VfdXJsIjoiaHR0cHM6Ly9jYy4xNjMuY29tL2FjdC9tLzIwMTgveXVuc2hhbmZ1LXR1aWd1YW5nL2luZGV4XzEuaHRtbCINCn0sDQp7DQoic3RhcnRfZGF0ZSI6ICIyMDE5LTAxLTE1IDEwOjAwOjAwIiwNCiJiYW5uZXJfdXJsIjoNCiJodHRwOi8vY2MuZnAucHMubmV0ZWFzZS5jb20vZmlsZS81YzI3MGYxOTE0M2NmYWQ3OGZiN2M3NjNyMWlrWTJxeiIsDQoiYWN0aXZpdHlfcGFnZV91cmwiOiJodHRwczovL2NjLjE2My5jb20vYWN0L20vMjAxOC95dW5zaGFuZnUtdHVpZ3VhbmcvaW5kZXhfMi5odG1sIg0KfSwNCnsNCiJzdGFydF9kYXRlIjogIjIwMTktMDEtMjUgMTA6MDA6MDAiLA0KImJhbm5lcl91cmwiOg0KImh0dHA6Ly9jYy5mcC5wcy5uZXRlYXNlLmNvbS9maWxlLzVjMjcwZjE5YTdmMjUyOTJiNjMyYmJlNkZ5eUxyQTVhIiwNCiJhY3Rpdml0eV9wYWdlX3VybCI6Imh0dHBzOi8vY2MuMTYzLmNvbS9hY3QvbS8yMDE4L3l1bnNoYW5mdS10dWlndWFuZy9pbmRleF8zLmh0bWwiDQp9DQpdDQp9",
+        "desc": "银联配置，这是 json 转换为base64之后的数据"
+      },
+      {
+        "value": "0",
+        "key": "union_pay_activity_start",
+        "desc": "是否开启银联支付活动，1开始，0结束"
+      },
+      {
+        "value": "0",
+        "key": "is_block_mpay",
+        "desc": "是否禁止掉 MPay ，1 为禁止，禁止之后会弹出 Toast；默认填0"
+      },
+      {
+        "key": "union_pay_download_page_link",
+        "value": "https://youhui.95516.com/app/app/software/unionpay-wallet-v2.apk",
+        "desc": "云闪付下载链接"
+      },
+      {
+        "value": "对方不是您好友并且发送消息次数有限,建议加为好友",
+        "key": "privchat_msg_send_success_tips",
+        "desc": "私聊发送成功的提醒文案"
+      },
+      {
+        "key": "enable_new_app_dump",
+        "value": "0",
+        "desc": "新appdump开关"
+      },
+      {
+        "value": "1000",
+        "key": "game_web_plugin_delay",
+        "desc": "房间插件延迟加载时间"
+      },
+      {
+        "key": "enable_game_live_tips",
+        "value": "1",
+        "desc": "客户端判断是否显示关注tab上的提醒,0关闭，1开启"
+      },
+      {
+        "value": "1",
+        "key": "all_live_tab",
+        "desc": "服务端判断是否返回【全部】tab，0不显示，1显示"
+      },
+      {
+        "key": "ds_enable_recharge",
+        "value": "0",
+        "desc": "大神房间SDK充值入口"
+      },
+      {
+        "key": "ds_recharge_url",
+        "value": "https://cc.163.com/act/m/daily/m_recharge/index.html",
+        "desc": "大神房间SDK充值页面url"
+      },
+      {
+        "key": "enable_album_qrcode_detect",
+        "value": "1",
+        "desc": "相册图片二维码识别"
+      },
+      {
+        "key": "is_me_me_da_ex_available",
+        "value": "1",
+        "desc": "免费c券兑换么么哒"
+      },
+      {
+        "key": "tv_enable_httpflv",
+        "value": "1",
+        "desc": ""
+      },
+      {
+        "key": "tv_enable_show_video_info",
+        "value": "1",
+        "desc": ""
+      },
+      {
+        "key": "enable_mlive_cover_detect_tips",
+        "value": "1",
+        "desc": "是否显示开播封面提示"
+      },
+      {
+        "value": "0",
+        "key": "player_tv_hd_check_size",
+        "desc": "TV端播放器硬解码禁用视频尺寸校验"
+      },
+      {
+        "value": "1",
+        "key": "player_capture_callback",
+        "desc": "增加播放器截图回调"
+      },
+      {
+        "key": "ws_pullcomm_template",
+        "value": "http://[IP]/pullcomm.v.cc.163.com/pushstation/[STREAM_NAME].flv?[PARAM]",
+        "desc": "网宿公有平台的cdn视频地址模板"
+      },
+      {
+        "value": "1",
+        "key": "enable_player_user_data",
+        "desc": "播放器是否接收开播端透传数据，目前用于透传星秀点歌歌词和进度，1=接收，0=不接收"
+      },
+      {
+        "key": "enable_engine_user_data",
+        "value": "1",
+        "desc": "开播引擎能否透传数据，目前表现为开播引擎主播能否透传进度和歌词，1=能透传，0=不能透传"
+      },
+      {
+        "value": "1",
+        "key": "enable_ccid_mall_entrance",
+        "desc": "靓号商城入口"
+      },
+      {
+        "key": "pretty_ccid_white_list",
+        "value": "{}",
+        "desc": "靓号商城临时增加的白名单，填写格式用逗号隔开{ccid1,ccid2},填写{}，则对所有用户开放,注意符号都是英文符号"
+      },
+      {
+        "value": "0",
+        "key": "enable_new_video_player",
+        "desc": "控制http_flv快播模式"
+      },
+      {
+        "value": "0",
+        "key": "ds_enable_send_gift",
+        "desc": "安卓房间sdk（大神）送礼入口开关，1：开启，0：关闭，默认1"
+      },
+      {
+        "key": "player_dump_response_byte",
+        "value": "512",
+        "desc": "dump http返回数据"
+      },
+      {
+        "value": "1",
+        "key": "enable_cctv_entrance",
+        "desc": "我的tab是否显示“CC电视版”入口；0-隐藏 1-显示"
+      },
+      {
+        "key": "enable_cctv_entrance_redpoint",
+        "value": "1",
+        "desc": "CCTV入口红点；0-隐藏 1-显示"
+      },
+      {
+        "key": "enable_room_tv_play",
+        "value": "0",
+        "desc": "乐播投屏入口开关,3.9.27版本增加；0关闭入口，1开启入口"
+      },
+      {
+        "key": "enable_mlive_signing_entrance",
+        "value": "https://cc.163.com/act/m/daily/sign_contract_m/",
+        "desc": "移动端签约-我要签约入口（0为关闭，配置正确页面url则打开）"
+      },
+      {
+        "key": "enable_x5_webview",
+        "value": "1",
+        "desc": "x5浏览器开关，1=开，0=关"
+      },
+      {
+        "key": "union_pay_force_download",
+        "value": "1",
+        "desc": "1为打开强制下载云闪付(无法使用网页支付)，0为关闭(可用网页)"
+      },
+      {
+        "value": "下载云闪付APP进行支付_云闪付优惠活动即将来袭_提前准备，优惠不错过～",
+        "key": "union_pay_guide_text",
+        "desc": "未装云闪付时点击云闪付支付的弹窗内容"
+      },
+      {
+        "key": "union_62_start_day",
+        "value": "2019.05.31-2019.06.02",
+        "desc": "银联62活动开启日期,格式为 2019.05.31-2019.06.02"
+      },
+      {
+        "value": "0",
+        "key": "union_62_start",
+        "desc": "是否开启银联62活动"
+      },
+      {
+        "value": "09-24",
+        "key": "union_62_start_time",
+        "desc": "银联62活动开启时间周期，24小时制 比如 09-24"
+      },
+      {
+        "value": "https://youhui.95516.com/app/app/software/unionpay-wallet-v2.apk",
+        "key": "union_62_union_app_download_url",
+        "desc": "银联App下载地址"
+      },
+      {
+        "value": "1",
+        "key": "enable_new_noble_emotions",
+        "desc": "启用新版特权表情"
+      },
+      {
+        "key": "enable_fans_group_update_toast",
+        "value": "1",
+        "desc": "粉丝团按钮点击展示粉丝团页面时是否需要toast提示"
+      },
+      {
+        "key": "enable_renew_fans_group_by_gift",
+        "value": "1",
+        "desc": "是否通过送礼进入粉丝团"
+      },
+      {
+        "key": "enable_hide_fans_group_match_msg",
+        "value": "1",
+        "desc": "是否隐藏粉丝团任务相关布局"
+      },
+      {
+        "value": "0",
+        "key": "player_parse_chunk",
+        "desc": "播放器分块传输开关"
+      },
+      {
+        "key": "cc_detect_service",
+        "value": "0",
+        "desc": "刷子检测开关"
+      },
+      {
+        "value": "1",
+        "key": "player_parse_chunk_v2",
+        "desc": "播放器chunk检测新开关"
+      },
+      {
+        "key": "tv_player_dump_response_byte",
+        "value": "512",
+        "desc": "tv播放器异常数据打印"
+      },
+      {
+        "value": "1",
+        "key": "tv_player_parse_chunk_v2",
+        "desc": "tv播放器chunk检测"
+      },
+      {
+        "value": "1-1,42489-3,42562-1,43352-1",
+        "key": "tcp_time_out_black",
+        "desc": "tcp_timeout汇报黑名单，列表内的不汇报超时，41551蠢蠢欲动12.23下线，42329-102圣诞帽1.4下线，41798-1 1.4下线,42349心动选择没外放"
+      },
+      {
+        "value": "none",
+        "key": "player_new_stater",
+        "desc": "是否启用新日志模块"
+      },
+      {
+        "value": "3",
+        "key": "phone_free_login_v2",
+        "desc": "新一键登录（电信、移动开启、联通关闭）"
+      },
+      {
+        "value": "1",
+        "key": "enable_mp4_effect",
+        "desc": "mp4特效动画开关"
+      },
+      {
+        "key": "room_preload_mode",
+        "value": "2",
+        "desc": "房间预加载方式"
+      },
+      {
+        "key": "enable_vbr_auto_switch_to_standard",
+        "value": "1",
+        "desc": "房间内观看直播卡顿机制优化开关"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/my_guard/anchor.html",
+        "key": "open_manage_protector_url",
+        "desc": "守护管理页面地址"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/my_guard/user.html",
+        "key": "open_i_protect_url",
+        "desc": "我守护的页面地址"
+      },
+      {
+        "key": "open_guard_enable",
+        "value": "1",
+        "desc": "开通守护入口开关"
+      },
+      {
+        "key": "enable_urssdk_email_login",
+        "value": "1",
+        "desc": "urs登录sdk（0关闭，1开启）"
+      },
+      {
+        "key": "enable_uni_host_test",
+        "value": "1",
+        "desc": ""
+      },
+      {
+        "value": "0",
+        "key": "disable_new_pay",
+        "desc": "不启用新版充值开关 0启用 1不启用"
+      },
+      {
+        "value": "none",
+        "key": "player_stater_anchor",
+        "desc": "[播放器]新日志模块主播灰名单开关"
+      },
+      {
+        "key": "player_new_stater_v2",
+        "value": "none",
+        "desc": "[播放器]新日志模块用户灰名单开关"
+      },
+      {
+        "key": "enable_new_app_dump_test",
+        "value": "0",
+        "desc": "内部测试用，appdump开关"
+      },
+      {
+        "key": "enable_class_mark",
+        "value": "1",
+        "desc": "类使用统计"
+      },
+      {
+        "key": "im_official_setting_clear",
+        "value": "1",
+        "desc": "公众号清空消息入口：0隐藏，1显示"
+      },
+      {
+        "key": "cbg_enable_send_gift",
+        "value": "0",
+        "desc": "大神2.0.3送礼开关 1是开启、0是关闭"
+      },
+      {
+        "value": "0",
+        "key": "cbg_enable_recharge",
+        "desc": "#是否开启充值入口，1：打开，0：关闭，默认0"
+      },
+      {
+        "key": "cbg_recharge_url",
+        "value": "https://cc.163.com/act/m/daily/m_recharge/index.html",
+        "desc": "大神2.0.3充值页面地址"
+      },
+      {
+        "key": "im_cc_jun_offline",
+        "value": "1",
+        "desc": "客户端下线旧的小C君"
+      },
+      {
+        "key": "cbg_new_enable_recharge",
+        "value": "0",
+        "desc": "【藏宝阁sdk】充值入口1：打开，0：关闭，默认0"
+      },
+      {
+        "value": "0",
+        "key": "cbg_new_enable_send_gift",
+        "desc": "【藏宝阁sdk】是否开启送礼，1：开启，0：关闭，默认不打开"
+      },
+      {
+        "key": "cbg_new_recharge_url",
+        "value": "https://cc.163.com/act/m/daily/m_recharge/index.html",
+        "desc": "【藏宝阁sdk】充值页面地址"
+      },
+      {
+        "key": "fans_group_lottery",
+        "value": "0",
+        "desc": "粉丝团插件显示福利池信息 0-关闭，1-开启"
+      },
+      {
+        "key": "bind_big_god_url",
+        "value": "https://act.ds.163.com/48d264695c42584f/",
+        "desc": "绑定大神页面url"
+      },
+      {
+        "key": "bind_big_god_uid_white_list",
+        "value": "0",
+        "desc": "绑定大神入口显示白名单uid，多个uid英文逗号隔开，0则全网显示"
+      },
+      {
+        "key": "bind_big_god_enable",
+        "value": "1",
+        "desc": "绑定大神入口：0关闭，1开启"
+      },
+      {
+        "key": "enable_plate_gather",
+        "value": "1",
+        "desc": "铭牌图鉴页面"
+      },
+      {
+        "key": "switch_ai_lab_speech_recognize",
+        "value": "1",
+        "desc": "语音识别是否切换到AI LAB，1为开启，0为不开启，不配置默认为1"
+      },
+      {
+        "key": "http_record",
+        "value": "1",
+        "desc": "http汇报开关"
+      },
+      {
+        "value": "2",
+        "key": "room_relaxed_mode_enable",
+        "desc": "移动端右划清屏模式：0为关闭、1为全平台、2为仅星秀"
+      },
+      {
+        "key": "enable_like_anchor_new_skin",
+        "value": "0",
+        "desc": "是否开启撩一下主播新皮肤"
+      },
+      {
+        "value": "0",
+        "key": "image_library_to_picasso",
+        "desc": "1为切到picasso，0或其他值为恢复到ImageLoader"
+      },
+      {
+        "value": "0",
+        "key": "agreed_user_licence_by_default_enable",
+        "desc": "登录界面是否默认勾选同意用户协议（1勾选，0不勾选）"
+      },
+      {
+        "key": "ent_recommend_plugin_req_delay",
+        "value": "10",
+        "desc": "娱乐TAB首页为你推荐插件延迟几秒请求（单位为秒）"
+      },
+      {
+        "value": "0",
+        "key": "enable_point_mall_entrance",
+        "desc": "“我的”界面积分商城入口（1：开，0：关）"
+      },
+      {
+        "key": "enable_send_gift_guide_follow",
+        "value": "1",
+        "desc": "送礼关注引导  0关闭1开启"
+      },
+      {
+        "value": "1",
+        "key": "high_light_album",
+        "desc": "是否开启高光时刻相册集的入口，0关闭，1开启"
+      },
+      {
+        "key": "high_light_album_url",
+        "value": "http://cc.163.com/act/m/daily/highlight_pic/",
+        "desc": "高光时刻相册集网页地址"
+      },
+      {
+        "value": "1",
+        "key": "enable_voice_live_bg",
+        "desc": "语音直播换肤入口"
+      },
+      {
+        "key": "img_lib_to_picasso",
+        "value": "1",
+        "desc": "20200106，cc图片库切换开关，1为切到picasso，0或其他值为恢复到ImageLoader"
+      },
+      {
+        "value": "1",
+        "key": "discovery_live_disable",
+        "desc": "发现TAB直播流开关"
+      },
+      {
+        "value": "0",
+        "key": "disable_tianti_star_entrance",
+        "desc": "天梯之星入口，0显示，1隐藏"
+      },
+      {
+        "key": "video_load_error_retry_delay_enable",
+        "value": "1",
+        "desc": "房间视频加载失败时，随机延迟重试功能开关，1 开，0 关"
+      },
+      {
+        "value": "1",
+        "key": "video_speed_change_switch",
+        "desc": "视频倍速入口开关，1，启用，0，关闭"
+      },
+      {
+        "value": "0",
+        "key": "is_release_danmuku_on_thread",
+        "desc": "弹幕销毁是否放在子线程进行"
+      },
+      {
+        "value": "0",
+        "key": "network_status_record_switch",
+        "desc": "是否开启网络状态监听和上报network_poor日志"
+      },
+      {
+        "key": "tcp_timeout_proportion_switch",
+        "value": "1",
+        "desc": "是否开启tcp超时比例统计逻辑"
+      },
+      {
+        "key": "enable_room_slide",
+        "value": "1",
+        "desc": "0关闭1开启"
+      },
+      {
+        "key": "enable_my_dress_up",
+        "value": "1",
+        "desc": "“我的装扮”入口开关，1:开（默认），0:关"
+      },
+      {
+        "key": "enable_realm_uncaught_exception_handler",
+        "value": "0",
+        "desc": ""
+      },
+      {
+        "value": "1",
+        "key": "news_sdk_enable_send_gift",
+        "desc": "新闻SDK礼物入口"
+      },
+      {
+        "key": "enable_peiwan_order",
+        "value": "1",
+        "desc": "陪玩订单中心"
+      },
+      {
+        "key": "enable_not_login_peiwan_certify",
+        "value": "0",
+        "desc": "陪玩认证入口"
+      },
+      {
+        "key": "enable_new_light",
+        "value": "1",
+        "desc": "新版点亮"
+      },
+      {
+        "value": "1",
+        "key": "light_freq_min_limit",
+        "desc": "新版点亮"
+      },
+      {
+        "value": "256000",
+        "key": "bitrate",
+        "desc": "语音码率"
+      },
+      {
+        "value": "5",
+        "key": "test_retry",
+        "desc": ""
+      },
+      {
+        "value": "0",
+        "key": "sanren_gift_income_url",
+        "desc": "我的收益--礼物收益入口"
+      },
+      {
+        "key": "enable_new_withdraw_record",
+        "value": "0",
+        "desc": "允许展示新版“提现记录”页面"
+      },
+      {
+        "value": "0",
+        "key": "enable_income_record_category_tab",
+        "desc": "“收益账单”页面允许显示礼物收益、陪玩收益等tab"
+      },
+      {
+        "value": "50",
+        "key": "audio_send_gift_guide_stay_time",
+        "desc": "送礼引导控制开关"
+      },
+      {
+        "value": "1",
+        "key": "4g_autoplay",
+        "desc": "4g环境下是否自动播放直播（0关闭1开启）"
+      },
+      {
+        "value": "1",
+        "key": "enable_peiwan_paidan_entrance",
+        "desc": "我的TAB-陪玩派单入口是否显示"
+      },
+      {
+        "value": "1",
+        "key": "enable_login_guide_plan_b",
+        "desc": "安卓登录弹窗逻辑方案，默认为1，b方案  http://icc.pm.netease.com/v6/issues/268101"
+      },
+      {
+        "value": "1",
+        "key": "enable_room_theme",
+        "desc": "开启设置房间主题的入口"
+      },
+      {
+        "key": "disable_main_restore",
+        "value": "1",
+        "desc": "1不让系统恢复；0让系统恢复（默认）"
+      },
+      {
+        "key": "picture_size_report",
+        "value": "4",
+        "desc": "图片大小超过阈值会汇报，单位是M"
+      },
+      {
+        "key": "enable_sanren_withdraw",
+        "value": "1",
+        "desc": "我的收益-礼物Tab开关"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/user_income/index.html",
+        "key": "sanren_gift_income_url_new",
+        "desc": "我的收益-礼物收益url"
+      },
+      {
+        "key": "stranger_chat_room_type_list",
+        "value": "95599,65005,195599,195600,295599,195601",
+        "desc": "支持房间内私聊的品类列表，多个品类时用,分开"
+      },
+      {
+        "value": "0",
+        "key": "performance_sampling_enable",
+        "desc": "待删除"
+      },
+      {
+        "value": "1",
+        "key": "enable_points_red_packet",
+        "desc": "积分红包的功能开关"
+      },
+      {
+        "key": "room_slide_toast_interval",
+        "value": "7",
+        "desc": "不配或者-1 等于关闭功能"
+      },
+      {
+        "value": "36700160",
+        "key": "svga_mem_warn_threshold",
+        "desc": "SVGA动画内存占用警戒值(byte)"
+      },
+      {
+        "key": "svga_fps_warn_threshold",
+        "value": "30",
+        "desc": "SVGA动画FPS警戒值"
+      },
+      {
+        "value": "1",
+        "key": "enable_audio_hall_guard",
+        "desc": "说明：音频厅守护开通入口。0或者不配置隐藏所有入口"
+      },
+      {
+        "value": "1",
+        "key": "honor_achievement_switch",
+        "desc": "CC荣誉成就入口 1-开启 0-关闭（默认）"
+      },
+      {
+        "key": "honor_achievement_url",
+        "value": "https://cc.163.com/act/m/2020/achievement_of_honor/index.html",
+        "desc": "荣誉成就页面地址"
+      },
+      {
+        "key": "koom_dump_threshold",
+        "value": "45",
+        "desc": "koom dump的阈值"
+      },
+      {
+        "value": "0",
+        "key": "koom_dump_enabled",
+        "desc": "打开koom"
+      },
+      {
+        "value": "1",
+        "key": "enable_gift_category",
+        "desc": "1:表示启用新版娱乐礼物分类，0:表示关闭新版娱乐礼物分类"
+      },
+      {
+        "value": "120",
+        "key": "app_ad_awake_config_interval",
+        "desc": "App唤醒广告配置：唤醒时间间隔"
+      },
+      {
+        "key": "app_ad_awake_config_in_room_open",
+        "value": "0",
+        "desc": "App唤醒广告配置：直播间是否唤醒（1:允许直播间唤醒 0:不允许直播间唤醒）"
+      },
+      {
+        "value": "1",
+        "key": "enable_my_tab_cc_gang",
+        "desc": "我的tab中 cc帮派入口的显隐控制，1为显示，0为隐藏"
+      },
+      {
+        "key": "enable_audio_hall_marriage_rank",
+        "value": "0",
+        "desc": "0代表不显示，1代表显示哈，不配置默认显示。"
+      },
+      {
+        "key": "christmas_roll_request_enabled",
+        "value": "0",
+        "desc": "是否允许轮询圣诞氛围冠名边框信息接口 1:允许 0:不允许"
+      },
+      {
+        "value": "0",
+        "key": "enable_main_skin",
+        "desc": "是否启用首页圣诞皮肤（1：启用；0不启用；默认0）"
+      },
+      {
+        "key": "main_skin_bg",
+        "value": "http://cc.fp.ps.netease.com/file/5fd75267a7f25246a0233223dhjbDHqi02",
+        "desc": "游戏&娱乐首页圣诞皮肤背景图"
+      },
+      {
+        "value": "#AF1128",
+        "key": "main_skin_ent_tab_bg",
+        "desc": "圣诞皮肤 娱乐标签背景色"
+      },
+      {
+        "value": "0",
+        "key": "enable_mine_tab_game_hall_entrance",
+        "desc": "“我的”tab下展示游戏语音房创建&进入入口，没有该配置时默认不显示，1显示/0隐藏"
+      },
+      {
+        "value": "1",
+        "key": "enable_offline_room_oper_in_loopplay",
+        "desc": "1:开启离线直播间轮播横屏和弹幕；0:关播离线直播间轮播横屏和弹幕"
+      },
+      {
+        "value": "0",
+        "key": "close_new_fast_play",
+        "desc": "新快播开关"
+      },
+      {
+        "key": "enable_audio_hall_blessing",
+        "value": "1",
+        "desc": "音频厅祝福榜入口是否启用"
+      },
+      {
+        "value": "1",
+        "key": "enable_follow_friend_web_module",
+        "desc": "关注tab社交关系推荐模块"
+      },
+      {
+        "key": "apps_scheme_can_open_check_enable",
+        "value": "0",
+        "desc": "收集用户安装列表开关，1表示开启，0关闭"
+      },
+      {
+        "key": "use_new_image_loader_interface",
+        "value": "1",
+        "desc": "新ImageLoader接口开关"
+      },
+      {
+        "key": "enable_ccplayer",
+        "value": "0",
+        "desc": "1：启用ccplayer，0：用旧的播放器，默认：0"
+      },
+      {
+        "key": "im_read_sync_interval",
+        "value": "60",
+        "desc": "好友&陌生人聊天已读消息确认定时上报间隔(单位秒)"
+      },
+      {
+        "key": "enable_sound_certify_entrance_recommend",
+        "value": "1",
+        "desc": "推荐Tab是否展示声音鉴定入口"
+      },
+      {
+        "value": "1",
+        "key": "enable_sound_certify_entrance_starshow",
+        "desc": "星秀Tab是否展示声音鉴定入口"
+      },
+      {
+        "key": "enable_sound_certify_entrance_personal",
+        "value": "1",
+        "desc": "个人资料页是否展示声音鉴定入口"
+      },
+      {
+        "key": "ds_enable_audio_hall_send_gift",
+        "value": "0",
+        "desc": "SDK礼物开关"
+      },
+      {
+        "key": "audio_hall_query_play_hint",
+        "value": "1",
+        "desc": "音频厅是否查询玩法提示,1查询，0显示公告"
+      },
+      {
+        "key": "cc_skin_switch_disable",
+        "value": "0",
+        "desc": "禁用CC切换皮肤功能"
+      },
+      {
+        "key": "enable_cloud_player",
+        "value": "1",
+        "desc": "是否允许开启云游戏（1:允许 0:不允许，默认允许）"
+      },
+      {
+        "value": "1",
+        "key": "welcome_msg_official_statement_interval",
+        "desc": "官方欢迎消息展示时间间隔，单位为秒"
+      },
+      {
+        "key": "welcome_msg_official_statement",
+        "value": "CC直播坚决维护青少年群体精神文明健康，禁止传播涉政、涉恐、涉黄等内容。严禁主播诱导未成年人用户打赏，请大家共同遵守、监督。",
+        "desc": "官方欢迎消息配置文案"
+      },
+      {
+        "key": "enable_ccplayer3",
+        "value": "0",
+        "desc": "1：启用ccplayer，0：用旧的播放器，默认：0"
+      },
+      {
+        "key": "luxury_car_card_clk_compact_model",
+        "value": "SM-G9500",
+        "desc": "豪车卡片选中moveToPosition兼容机型，逗号分隔"
+      },
+      {
+        "key": "device_level_luxury_car",
+        "value": "3",
+        "desc": "支持豪车改造玩法的设备档次（1：低端；2：中端；3：高端； 默认不配置为0，不进行本维度限制）"
+      },
+      {
+        "value": "29",
+        "key": "min_sys_version_support_luxury_car",
+        "desc": "支持豪车改造玩法的最小系统版本（譬如：24，>=24版本支持，不配置则默认全部不支持）"
+      },
+      {
+        "value": "SM-G9500",
+        "key": "luxury_car_card_clk_compact_model_v2",
+        "desc": "豪车卡片选中moveToPosition兼容机型，逗号分隔"
+      },
+      {
+        "key": "device_level_luxury_car_v2",
+        "value": "3",
+        "desc": "支持豪车改造玩法的设备档次（1：低端；2：中端；3：高端； 默认不配置为0，不进行本维度限制）"
+      },
+      {
+        "value": "26",
+        "key": "min_sys_version_support_luxury_car_v2",
+        "desc": "支持豪车改造玩法的最小系统版本（譬如：24，>=24版本支持，不配置则默认全部不支持）"
+      },
+      {
+        "key": "disable_nickname_card",
+        "value": "0",
+        "desc": "昵称改名卡屏蔽开关，1为屏蔽， 不配置默认可以使用改名卡"
+      },
+      {
+        "key": "disable_room_time_shift_ad",
+        "value": "0",
+        "desc": "禁用房间视频流时移回放功能（1:禁用 0:开放，默认1）"
+      },
+      {
+        "value": "3.7.8",
+        "key": "clear_user_licence_agreement_version",
+        "desc": "配置需要清理默认协议勾选状态的版本号"
+      },
+      {
+        "value": "1",
+        "key": "enable_player_monitor",
+        "desc": "是否启用播放器 新日志模块  1：启用，0：禁用，默认：0"
+      },
+      {
+        "key": "rbox_support_min_height_dp",
+        "value": "0",
+        "desc": "大R包厢安卓屏蔽机型尺寸"
+      },
+      {
+        "key": "hard_decode_default_v2",
+        "value": "1",
+        "desc": "是否打开硬解码"
+      },
+      {
+        "key": "enable_vivo_window_hook",
+        "value": "1",
+        "desc": "是否启用vivo手机WindowHook（1：启用；0：不启用；默认：0）"
+      },
+      {
+        "key": "gift_shelf_wealth_progress_bar_enable",
+        "value": "1",
+        "desc": "是否开启礼物架财富等级经验进度条（1开启0关闭）"
+      },
+      {
+        "value": "https://h5.cc.163.com/?downcode=appysxy",
+        "key": "un_agree_user_secret_url",
+        "desc": "不同意隐私政策协议时打开的地址"
+      },
+      {
+        "key": "enable_cancel_account",
+        "value": "1",
+        "desc": "是否允许注销账号开关（1：打开；0：关闭；默认：0）"
+      },
+      {
+        "key": "enable_pre_fetch_audiohall_info",
+        "value": "1",
+        "desc": "语音厅信息预加载"
+      },
+      {
+        "value": "0",
+        "key": "room_hidden_contribute_value",
+        "desc": "控制七日贡献榜观众侧的显示，1表示隐藏，0表示显示"
+      },
+      {
+        "key": "anchor_hidden_contribute_value",
+        "value": "0",
+        "desc": "开播端隐藏七日贡献榜单数值"
+      },
+      {
+        "value": "https://cc.163.com/act/m/2021/download_guide/index.html",
+        "key": "mlive_tool_download_url_v2",
+        "desc": "3.8.4版本手游开播下载新页面"
+      },
+      {
+        "key": "unagree_user_sercet_performance_switch",
+        "value": "2",
+        "desc": "未同意隐私模式时的处理方案：0退出app，1进入H5，2进入app内限制"
+      },
+      {
+        "key": "record_live_bugly_gray",
+        "value": "10",
+        "desc": "录屏app启用bugly的用户uid范围0-?"
+      },
+      {
+        "key": "ds_force_orginal_vbr_number",
+        "value": "20000",
+        "desc": "大神SDK强制走原画逻辑时，指定的清晰度配置"
+      },
+      {
+        "value": "0",
+        "key": "disable_pay_fold",
+        "desc": "安卓端微信支付折叠开关"
+      },
+      {
+        "key": "enable_pre_inflate_room_layout",
+        "value": "1",
+        "desc": "提前异步inflate语音厅布局"
+      },
+      {
+        "value": "10",
+        "key": "game_rec_banner_time",
+        "desc": "banner轮播时长（单位：秒）"
+      },
+      {
+        "value": "[huawei]",
+        "key": "app_channel_not_auto_agree",
+        "desc": "第二次登录不需要自动同意的渠道"
+      },
+      {
+        "value": "[huawei]",
+        "key": "hide_play_tab_ds_footer",
+        "desc": "隐藏指定渠道 约玩tab底部大神页面入口"
+      },
+      {
+        "value": "1",
+        "key": "default_sticky_fulijun_on_top",
+        "desc": "公众号福利君是否默认开启置顶（0关闭 1开启）"
+      },
+      {
+        "value": "0",
+        "key": "is_open_matrix",
+        "desc": "是否打开 matrix sdk"
+      },
+      {
+        "value": "1",
+        "key": "is_open_matrix_v2",
+        "desc": "是否打开 matrix sdk，3.9.1开始使用这个"
+      },
+      {
+        "key": "tcp_timeout_use_handler_thread_v2",
+        "value": "1",
+        "desc": "tcp超时改版"
+      },
+      {
+        "value": "0",
+        "key": "fetch_my_follow_new",
+        "desc": "我的tab-我的关注接口调整（1为新版）"
+      },
+      {
+        "value": "1",
+        "key": "fetch_my_follow_new_v2",
+        "desc": "我的tab-我的关注接口调整二期接入灰度"
+      },
+      {
+        "key": "device_level_audio_visualizer",
+        "value": "3",
+        "desc": "支持音频厅语音动态背景的设备档次"
+      },
+      {
+        "value": "26",
+        "key": "min_sys_version_support_audio_visualizer",
+        "desc": "支持音频厅语音动态背景的最小系统版本"
+      },
+      {
+        "key": "device_blacklist_audio_visualizer",
+        "value": "CPH2239",
+        "desc": "不支持音频厅语音动态背景的设备黑名单列表（譬如：mi7,mi8，逗号分隔，不配置则默认全部支持）"
+      },
+      {
+        "value": "CPH2239",
+        "key": "device_blacklist_luxury_car_v2",
+        "desc": "不支持豪车的设备黑名单列表（譬如：mi7,mi8，逗号分隔，不配置则默认全部支持）"
+      },
+      {
+        "key": "audio_hall_main_page_v2_enable",
+        "value": "1",
+        "desc": "是否启用语音厅新主页地址及新的打开高度计算方式"
+      },
+      {
+        "key": "enable_web_long_press",
+        "value": "0",
+        "desc": "支持网页长按保存图片、分享"
+      },
+      {
+        "key": "flutter_plate_book_page_index",
+        "value": "1",
+        "desc": "flutter图鉴页实现分页效果，新增开关，不影响旧版用户。"
+      },
+      {
+        "value": "https://cc.163.com/act/m/daily/audio_my_live/index.html",
+        "key": "ccyy_live_anchor_entrance_url_v2",
+        "desc": "CC语音-我的直播地址"
+      },
+      {
+        "key": "ccyy_sanren_gift_income_url_new",
+        "value": "https://cc.163.com/act/m/daily/audio_user_income/index.html",
+        "desc": "CC语音-我的收益-礼物收益url"
+      },
+      {
+        "value": "1",
+        "key": "ccauiod_enable_version_update",
+        "desc": "CC语音更新检测入口，1为显示"
+      },
+      {
+        "key": "cc_toast_new",
+        "value": "1",
+        "desc": "1为按新版默认底部显示，0为按之前的居中显示"
+      },
+      {
+        "key": "enable_new_network_state_plan",
+        "value": "0",
+        "desc": "是否启用新的网络状态管理方案：1-新方案；0-旧方案；默认：0"
+      },
+      {
+        "value": "1",
+        "key": "enable_tcp_msg_cache",
+        "desc": "web tcp 请求缓冲开关，默认为 0，关闭"
+      },
+      {
+        "key": "enable_contribution_rank_level_audio_hall",
+        "value": "5",
+        "desc": "用户的财富等级大于等于value的才显示，-1表示全打开，小于等于-2表示屏蔽"
+      },
+      {
+        "value": "2",
+        "key": "enable_ccyy_contribution_rank_level_audio_hall",
+        "desc": "用户的财富等级大于等于value的才显示，-1表示全打开，小于等于-2表示屏蔽"
+      },
+      {
+        "key": "enable_new_network_state_plan_v2",
+        "value": "0",
+        "desc": "#是否启用新的网络状态管理方案：1-新方案；0-旧方案；默认：0"
+      },
+      {
+        "key": "enable_contribution_rank_level_game",
+        "value": "5",
+        "desc": "游戏房间，针对财富等级判断是否显示贡献榜，key表示用户的财富等级，大于等于value的才显示，-1表示全打开，小于等于-2表示屏蔽"
+      },
+      {
+        "value": "5",
+        "key": "enable_contribution_rank_level_live",
+        "desc": "娱乐房间，针对财富等级判断是否显示贡献榜， key表示用户的财富等级，大于等于value的才显示， -1表示全打开，小于等于-2表示屏蔽"
+      },
+      {
+        "key": "enable_new_network_state_plan_v3",
+        "value": "1",
+        "desc": "是否启用新的网络状态管理方案：1-新方案；0-旧方案；默认：0"
+      },
+      {
+        "value": "24",
+        "key": "min_sys_version_support_audio_face",
+        "desc": "持音捏脸功能的最小系统版本（譬如：24，>=24版本支持，不配置则默认全部支持）"
+      },
+      {
+        "value": "1",
+        "key": "enable_orientation_new_plan",
+        "desc": "启用orientation新方案，0-旧方案， 1-启用新方案，默认0"
+      },
+      {
+        "key": "pan_switch_room_offset_factor",
+        "value": "0.7",
+        "desc": "娱乐房间上下滑动系数，默认为1，最小为0"
+      },
+      {
+        "value": "12345678abcd",
+        "key": "enable_native_socket_devices",
+        "desc": "启用新tcp socket连接方式的设备尾号"
+      },
+      {
+        "key": "back_press_exit_audiohall_times",
+        "value": "1",
+        "desc": "已开启小窗口的安卓移动端用户当天第n次【n为配置参数】退出语音直播间，无论通过物理按键、左滑、右滑返回，必现侧边栏"
+      },
+      {
+        "key": "enable_caught_exception_handler",
+        "value": "1",
+        "desc": "启动后会捕获指定异常 不发生崩溃﻿（1：捕获异常；0：不捕获异常；默认：0）"
+      },
+      {
+        "value": "1",
+        "key": "enable_room_webview_fullscreen_play_video_v2",
+        "desc": "是否允许网页播放器全屏播放视频（1-启用，0-不启用，默认0）"
+      },
+      {
+        "key": "open_square_web_banner",
+        "value": "1",
+        "desc": "广场tab上面两个banner"
+      },
+      {
+        "key": "enable_community_tab",
+        "value": "1",
+        "desc": "是否开启语音动态"
+      },
+      {
+        "key": "enable_moments_video_client_transcode",
+        "value": "0",
+        "desc": "0直接都服务端转码，1先尝试客户端转码"
+      },
+      {
+        "key": "moments_video_transcode_bitrate",
+        "value": "10000",
+        "desc": "2000~20000，语音动态视频转码bitrate，值越大视频越大转码上传时间越长"
+      },
+      {
+        "key": "room_sdk_restrict_vbr_tip_second",
+        "value": "30",
+        "desc": "房间SDK受限制清晰度tip提示展示时机（单位：秒），若配置为0则表示不开启受限制清晰度功能，默认 0"
+      },
+      {
+        "key": "moments_video_upload_resolution_threashold",
+        "value": "1920,1080",
+        "desc": "语音社区动态视频-上传清晰度限制阈值（视频长短边以逗号隔开）"
+      },
+      {
+        "value": "300",
+        "key": "moments_video_upload_file_size_threashold",
+        "desc": "语音社区动态视频-上传视频文件大小限制阈值（单位：MB）"
+      },
+      {
+        "key": "community_guide_version",
+        "value": "3.9.26",
+        "desc": "社区页引导版本"
+      },
+      {
+        "key": "mobile_url_v2",
+        "value": "https://vapi.cc.163.com/video_play_url_mobile/",
+        "desc": "banner支持视频交友房间的视频预览"
+      },
+      {
+        "value": "1",
+        "key": "wealth_new_style",
+        "desc": "财富等级新版样式和功能，默认0关闭"
+      },
+      {
+        "key": "pretty_ccid_icon_wealth_level",
+        "value": "62",
+        "desc": "CC靓号app客户端本地限制财富等级,默认值20"
+      },
+      {
+        "value": "36",
+        "key": "pay_wealth_level_greater_than",
+        "desc": "默认值10，大于等于配置的等级才能充值50w"
+      }
+    ]
+  },
+  "result": 0,
+  "is_new": 0
+}
