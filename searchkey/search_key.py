@@ -88,8 +88,10 @@ def str_not_exist_in_files(root_path, words, result_file_name, output_dir_name):
 def check_all_project_unused_key(json_file, output_dir_name):
     all_key = set_convert_from_json(json_file)
     cc_unused_key = str_not_exist_in_files(r'F:\tempProjects\cc', all_key, 'cc', output_dir_name)
-    ccaudio_unused_key = str_not_exist_in_files(r'F:\tempProjects\ccaudiolive', cc_unused_key, 'ccaudio', output_dir_name)
-    ccdsroomsdk_unused_key = str_not_exist_in_files(r'F:\StudioProjects\ccdsroomsdk', ccaudio_unused_key, 'ccdsroomsdk', output_dir_name)
+    ccaudio_unused_key = str_not_exist_in_files(r'F:\tempProjects\ccaudiolive', cc_unused_key, 'ccaudio',
+                                                output_dir_name)
+    ccdsroomsdk_unused_key = str_not_exist_in_files(r'F:\StudioProjects\ccdsroomsdk', ccaudio_unused_key, 'ccdsroomsdk',
+                                                    output_dir_name)
     CCRecordLive_unused_key = str_not_exist_in_files(r'F:\StudioProjects\CCRecordLive', ccdsroomsdk_unused_key,
                                                      'CCRecordLive', output_dir_name)
     ccrecordlivesdk_unused_key = str_not_exist_in_files(r'F:\StudioProjects\ccrecordlivesdk', CCRecordLive_unused_key,
@@ -99,10 +101,9 @@ def check_all_project_unused_key(json_file, output_dir_name):
     CCGRoomSDK_unused_key = str_not_exist_in_files(r'C:\Users\N22117\StudioProjects\CCGRoomSDK', cclivecar_unused_key,
                                                    'CCGRoomSDK', output_dir_name)
     LanProjectionScreenSDK_unused_key = str_not_exist_in_files(r'F:\StudioProjects\LanProjectionScreenSDK',
-                                                               CCGRoomSDK_unused_key, 'LanProjectionScreenSDK', output_dir_name)
-    cui_unused_key = str_not_exist_in_files(r'F:\StudioProjects\cui', LanProjectionScreenSDK_unused_key, 'cui', output_dir_name)
-    file_helper.write_list_to_file(f'{output_dir_name}/{output_dir_name}_unused_key_result', cui_unused_key)
+                                                               CCGRoomSDK_unused_key, 'LanProjectionScreenSDK',
+                                                               output_dir_name)
+    cui_unused_key = str_not_exist_in_files(r'F:\StudioProjects\cui', LanProjectionScreenSDK_unused_key, 'cui',
+                                            output_dir_name)
+    file_helper.write_list_to_file(f'{output_dir_name}/unused_key_result', cui_unused_key)
     return cui_unused_key.difference(white_key)
-
-
-

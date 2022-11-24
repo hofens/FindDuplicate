@@ -7,7 +7,8 @@ from searchkey.search_key import *
 from utils import file_helper
 
 if __name__ == '__main__':
-    # get_all_project_unused_key('searchkey/data/外网appconfig配置.json', 'release')
+    check_all_project_unused_key('searchkey/data/appconfig.json', 'searchkey/release')
+    check_all_project_unused_key('searchkey/data/appconfig_dev.json', 'searchkey/dev')
     rel_key = set_convert_from_json('searchkey/data/appconfig.json')
     dev_key = set_convert_from_json('searchkey/data/appconfig_dev.json')
 
@@ -18,7 +19,7 @@ if __name__ == '__main__':
     only_release_config = rel_key.difference(dev_key)
 
     # 代码中没有声明的
-    unused_in_codes = file_helper.list_convert_from_txt('searchkey/dev/dev_unused_result.txt')
+    unused_in_codes = file_helper.list_convert_from_txt('searchkey/dev/unused_key_result.txt')
     file_helper.write_list_to_file('searchkey/data/unused_in_codes.txt', unused_in_codes)
     # 内网有配置,代码中有声明的
     in_config_and_code = only_dev_config.difference(unused_in_codes)

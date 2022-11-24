@@ -33,5 +33,3 @@ enable_new_video_player_v2
 num_tcp_timeout_record
 tcp_timeout_use_alarm
 enable_page_load_offline_res
-
-# 内网比外网多出来的剩余key，
