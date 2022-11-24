@@ -7,6 +7,13 @@
 import os
 import re
 import json
+from utils import file_helper
+
+white_key = ['%s_enable_web_plugin',
+             '%s_enable_send_gift',
+             '%s_enable_web_plugin',
+             '%s_recharge_url',
+             '%s_enable_recharge']
 
 
 def print_hi(name):
@@ -61,7 +68,7 @@ def str_not_exist_in_files(root_path, words, result_file_name, output_dir_name):
     # 获取未使用的word
     unused_words = set(set(words).difference(set(used_words)))
 
-    result_txt = open('dev/unused_key_result_{0}.txt'.format(result_file_name), 'w+', encoding='utf-8')
+    result_txt = open('{0}/unused_key_result_{1}.txt'.format(output_dir_name, result_file_name), 'w+', encoding='utf-8')
     result_txt.write("all_key_num: {0} contain_key_num: {1} unused_key_num: {2} \n".format(len(words), len(used_words),
                                                                                            len(unused_words)))
     result_txt.write("contain_key {0} \n\n".format(used_words))
@@ -77,6 +84,7 @@ def str_not_exist_in_files(root_path, words, result_file_name, output_dir_name):
     return unused_words
 
 
+# 一个项目筛完的结果作为下一个项目筛选的数据，最后一个项目输出结果即为在所有项目中都没有使用的字符串
 def check_all_project_unused_key(json_file, output_dir_name):
     all_key = set_convert_from_json(json_file)
     cc_unused_key = str_not_exist_in_files(r'F:\tempProjects\cc', all_key, 'cc', output_dir_name)
@@ -93,5 +101,8 @@ def check_all_project_unused_key(json_file, output_dir_name):
     LanProjectionScreenSDK_unused_key = str_not_exist_in_files(r'F:\StudioProjects\LanProjectionScreenSDK',
                                                                CCGRoomSDK_unused_key, 'LanProjectionScreenSDK', output_dir_name)
     cui_unused_key = str_not_exist_in_files(r'F:\StudioProjects\cui', LanProjectionScreenSDK_unused_key, 'cui', output_dir_name)
+    file_helper.write_list_to_file(f'{output_dir_name}/{output_dir_name}_unused_key_result', cui_unused_key)
+    return cui_unused_key.difference(white_key)
+
 
 

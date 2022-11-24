@@ -1,5 +1,3 @@
-# 内网比外网多出来的，同时也是内网包中也没用到的key 删掉，共33个
-
 eventbus_time_out_black
 disable_game_room_restore
 room_chat_levitation_msg_disable
@@ -33,5 +31,3 @@ enable_new_video_player_v2
 num_tcp_timeout_record
 tcp_timeout_use_alarm
 enable_page_load_offline_res
-
-# 内网比外网多出来的剩余key，
