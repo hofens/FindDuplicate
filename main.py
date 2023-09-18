@@ -7,8 +7,8 @@ from searchkey.search_key import *
 from utils import file_helper
 
 if __name__ == '__main__':
-    check_all_project_unused_key('searchkey/data/appconfig.json', 'searchkey/release')
-    check_all_project_unused_key('searchkey/data/appconfig_dev.json', 'searchkey/dev')
+    # check_all_project_unused_key('searchkey/data/appconfig.json', 'searchkey/release')
+    # check_all_project_unused_key('searchkey/data/appconfig_dev.json', 'searchkey/dev')
     rel_key = set_convert_from_json('searchkey/data/appconfig.json')
     dev_key = set_convert_from_json('searchkey/data/appconfig_dev.json')
 
